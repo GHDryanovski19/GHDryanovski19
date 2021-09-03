@@ -39,12 +39,7 @@
 
 ---
 
-<details>
-  <summary>:zap: GitHub Stats</summary>
-
-  <img align="left" alt="GHDryanovski19's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=GHDryanovski19&show_icons=true&hide_border=true" />
-
-</details>
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=GHDryanovski19&count_private=true&show_icons=true&theme=tokyonight&border_radius=10)](https://github.com/anuraghazra/github-readme-stats)
 
 [youtube]: https://www.youtube.com/channel/UC1u8NSWAyhMQpgI-hjrEDKA
 [instagram]: https://www.instagram.com/g_drianovski/
