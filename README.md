@@ -39,7 +39,7 @@
 
 ---
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=GHDryanovski19&count_private=true&show_icons=true&theme=tokyonight&border_radius=10)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=GHDryanovski19&count_private=true&show_icons=true&theme=outrun&border_radius=10)](https://github.com/anuraghazra/github-readme-stats)
 
 [youtube]: https://www.youtube.com/channel/UC1u8NSWAyhMQpgI-hjrEDKA
 [instagram]: https://www.instagram.com/g_drianovski/
