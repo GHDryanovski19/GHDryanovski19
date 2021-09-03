@@ -2,13 +2,12 @@
 
 ## I'm a student developer!
 
-- 🌱 I’m currently learning everything 🤣
-- 👯 I’m looking to collaborate with other content creators
+- 🌱 I’m currently learning
+- 👯 I’m looking for job opportunities
 - 🥅 2021 Goals: Improve my skills
 - ⚡ Fun fact: I love to draw and play guitar
 
 ### Connect with me:
-[<img align="left" alt="g_drianovski | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
 [<img align="left" alt="g_drianovski | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 <br />
@@ -32,10 +31,10 @@
 ### 📺 YouTube
 
 <!-- YOUTUBE:START -->
-- [ODNA Teaser](https://www.youtube.com/watch?v=i1ZoyIOhJuI)
+- [ODNA Teaser](https://www.youtube.com/watch?v=i1ZoyIOhJuI) - Project - *frozen*
 <!-- YOUTUBE:END -->
 
-➡️ [hopefully there will be more videos...](https://www.youtube.com/channel/UC1u8NSWAyhMQpgI-hjrEDKA)
+➡️ [hopefully there will be more videos...](https://www.youtube.com/channel/UC1u8NSWAyhMQpgI-hjrEDKA) *frozen*
 
 ---
 
