@@ -8,7 +8,6 @@
 - ⚡ Fun fact: I love to draw and play guitar
 - Jelqzko is my dad.
 - Stoyan is my mom.
-- Example.
 
 ### Connect with me:
 [<img align="left" alt="g_drianovski | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
