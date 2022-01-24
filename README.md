@@ -9,7 +9,7 @@
 - 👩 Stoyan is my mom.
 
 <p align="center">
-  <img width="450" style="border-radius: 10px" src="https://media.giphy.com/media/hmTyTK13v9dvjRkxd9/giphy.gif">
+  <img width="450" src="https://media.giphy.com/media/hmTyTK13v9dvjRkxd9/giphy.gif">
 </p>
 
 ### Connect with me:
