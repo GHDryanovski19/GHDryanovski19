@@ -4,10 +4,10 @@
 
 - 🌱 I’m currently learning
 - 👯 I’m looking for job opportunities
-- 🥅 2021 Goals: Improve my skills
+- 🥅 2022 Goals: Improve my skills
 - ⚡ Fun fact: I love to draw and play guitar
-- Jelqzko is my dad.
-- Stoyan is my mom.
+- 👨 Jelqzko is my dad.
+- 👩 Stoyan is my mom.
 
 ### Connect with me:
 [<img align="left" alt="g_drianovski | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
