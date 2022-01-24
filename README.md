@@ -12,7 +12,7 @@
   <img width="450" src="https://media.giphy.com/media/hmTyTK13v9dvjRkxd9/giphy.gif">
 </p>
 
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=GHDryanovski19.visitor-badge&left_color=red&right_color=green&left_text=Hello%20Visitors)
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=GHDryanovski19.visitor-badge&left_color=red&right_color=green&left_text=Upper%206%20Gyutaro)
 
 ### Connect with me:
 [<img align="left" alt="g_drianovski | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
