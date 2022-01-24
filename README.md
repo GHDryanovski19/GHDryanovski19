@@ -8,9 +8,12 @@
 - 👨 Jelqzko is my dad.
 - 👩 Stoyan is my mom.
 
+---
+
 <img width="450" src="https://media.giphy.com/media/hmTyTK13v9dvjRkxd9/giphy.gif">
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=GHDryanovski19.visitor-badge&left_color=red&right_color=green&left_text=Upper%206%20Gyutaro)
+
 
 ### Connect with me:
 [<img align="left" alt="g_drianovski | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
@@ -35,8 +38,6 @@
 ![Photoshop](https://aleen42.github.io/badges/src/photoshop.svg)
 ![Premiere](https://aleen42.github.io/badges/src/premiere.svg)
 ![AfterEffects](https://aleen42.github.io/badges/src/after_effects.svg)
-
-<br />
 <br />
 
 ---
