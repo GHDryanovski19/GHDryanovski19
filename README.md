@@ -10,7 +10,7 @@
 
 ---
 
-<img width="450" src="https://media.giphy.com/media/hmTyTK13v9dvjRkxd9/giphy.gif">
+<img src="https://media3.giphy.com/media/PNHwprrYq8wdi8bFmv/giphy.gif?cid=790b761127d2a2170eddb53cf3aadf2de26638d3ccc13105&rid=giphy.gif&ct=g">
 
 ![](https://komarev.com/ghpvc/?username=GHDryanovski19&color=dab146)
 
