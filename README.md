@@ -7,6 +7,7 @@
 - 🥅 2022 Goals: Improve my skills
 - 👨 Jelqzko is my dad.
 - 👩 Stoyan is my mom.
+- 👴 Vankata is my uncle.
 
 ---
 
