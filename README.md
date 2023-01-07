@@ -15,11 +15,8 @@
 
 ---
 
-### Awesome creator
+### Bludude
 <a href="https://www.instagram.com/1mangouu/"><img align="left" alt="@1mangouu" width="250px" src="https://i.postimg.cc/GhNFMMjd/bludude.png"></a>
-<br>
-<br>
-<br>
 ---
 ### Languages and Tools:
 
@@ -53,11 +50,6 @@
 ![Premiere](https://aleen42.github.io/badges/src/premiere.svg)
 ![AfterEffects](https://aleen42.github.io/badges/src/after_effects.svg)
 <br />
-
----
-
-### Really cool character by @1mangouu
-[![bludude.png](https://i.postimg.cc/GhNFMMjd/bludude.png)](https://postimg.cc/w7XRMQPG)
 
 ---
 
