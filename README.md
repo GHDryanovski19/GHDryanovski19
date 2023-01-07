@@ -13,9 +13,7 @@
 
 ![](https://komarev.com/ghpvc/?username=GHDryanovski19&color=dab146)
 
-
-### Connect with me:
-[<img align="left" alt="g_drianovski | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+---
 
 ### Awesome creator
 <a href="https://www.instagram.com/1mangouu/"><img align="left" alt="@1mangouu" width="100px" src="https://i.postimg.cc/GhNFMMjd/bludude.png"></a>
