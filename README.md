@@ -11,7 +11,7 @@
 
 ---
 
-<img src="[![bludude.png](https://i.postimg.cc/GhNFMMjd/bludude.png)](https://postimg.cc/w7XRMQPG)">
+[![bludude.png](https://i.postimg.cc/GhNFMMjd/bludude.png)](https://postimg.cc/w7XRMQPG)
 
 ![](https://komarev.com/ghpvc/?username=GHDryanovski19&color=dab146)
 
