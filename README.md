@@ -9,7 +9,7 @@
 - 👩 Stoyan is my mom.
 - 👴 Vankata is my uncle.
 
----
+<br />
 
 ![](https://komarev.com/ghpvc/?username=GHDryanovski19&color=dab146)
 
@@ -20,6 +20,7 @@
 
 <br />
 
+---
 ### Languages and Tools:
 
 ![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=Apache&logoColor=white)
