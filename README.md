@@ -16,10 +16,10 @@
 ---
 
 ### Awesome creator
-<a href="https://www.instagram.com/1mangouu/"><img align="left" alt="@1mangouu" width="100px" src="https://i.postimg.cc/GhNFMMjd/bludude.png"></a>
-
-<br />
-
+<a href="https://www.instagram.com/1mangouu/"><img align="left" alt="@1mangouu" width="250px" src="https://i.postimg.cc/GhNFMMjd/bludude.png"></a>
+<br>
+<br>
+<br>
 ---
 ### Languages and Tools:
 
