@@ -8,6 +8,7 @@
 - 👨 Jelqzko is my dad.
 - 👩 Stoyan is my mom.
 - 👴 Vankata is my uncle.
+- School joke which shall remain till the end of time.
 
 <br />
 
