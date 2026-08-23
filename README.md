@@ -4,124 +4,149 @@
 </picture>
 
 **Georgi Dryanovski** — Software Engineer at Verasoft Labs, Burgas, Bulgaria
-[LinkedIn](https://www.linkedin.com/in/georgi-dryanovski-896072230/) · [Email](mailto:georgidrianovski@abv.bg) · [inkblotstudio.eu](https://inkblotstudio.eu)
+[LinkedIn](https://www.linkedin.com/in/georgi-dryanovski-896072230/) · [Email](mailto:georgidrianovski@abv.bg)
 
 ---
 
 ## What I do
 
-Six years building products end to end, with the centre of gravity on the frontend: design
-systems, application architecture, and the release pipeline that puts them in front of users.
+Five plus years building products end to end, with the centre of gravity on the frontend.
+At **Verasoft Labs** I lead frontend architecture and development across the company's
+commercial products, and own the release process that puts them in front of users.
 
-The work I take on is usually bigger than one screen — an ERP that replaces five separate
-tools, a component library four products depend on, one codebase that ships to web, iOS,
-Android and desktop. I optimise for two things: interfaces that stay fast on real data
-volumes, and code the next engineer can change without asking me first.
-
-**Right now** — frontend architecture and releases at Verasoft Labs, and building Citron,
-an AI native business operating system, through my own studio.
+I optimise for two things: interfaces that stay fast on real data volumes, and code the
+next engineer can change without asking me first.
 
 ---
 
-## Design systems, published and versioned
+## At Verasoft Labs
 
-Three libraries I designed, built and maintain. All three are on npm and consumed in
-production by shipping products, not demos.
+<table>
+<tr>
+<td width="34%" valign="top">
 
-| Package | | What it is |
-| --- | --- | --- |
-| [`@citron-systems/citron-ds`](https://www.npmjs.com/package/@citron-systems/citron-ds) | `v2.0` | Token system built on Style Dictionary. One source of truth compiles to CSS custom properties, SCSS, JS and a machine readable JSON reference, and ships self hosted fonts, motion tokens and brand assets alongside it. MIT. [Source](https://github.com/Inkblot-Studio/citron-ds) |
-| [`@citron-systems/citron-ui`](https://www.npmjs.com/package/@citron-systems/citron-ui) | `v1.26` | Accessible, token driven React component library — the shared UI layer under every Citron product. |
-| [`@nexcomponent/lib`](https://www.npmjs.com/package/@nexcomponent/lib) | `v2.7` | React UI library, shipped as parallel ESM and CJS builds with generated type declarations. [Source](https://github.com/Inkblot-Studio/nexcomponent-ui) |
+**Multi platform product engineering**
+
+</td>
+<td valign="top">
+
+**KORVUE** and **FitVue** — commercial platforms shipping to web, mobile and desktop from a
+single shared codebase. I lead architecture and development: the module boundaries, the
+shared state and data layer, and the platform seams where one codebase has to behave
+natively on four targets.
+
+<sub><kbd>TypeScript</kbd> <kbd>Ionic</kbd> <kbd>Capacitor</kbd> <kbd>Electron</kbd></sub>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Release ownership**
+
+</td>
+<td valign="top">
+
+I own releases end to end for what I build — build configuration per target, versioning,
+store submission and rollout. Owning the pipeline is what keeps the architecture honest;
+an abstraction that makes shipping harder gets found in the first release, not the fourth.
+
+<sub><kbd>GitHub Actions</kbd> <kbd>Git</kbd></sub>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Documentation platform**
+
+</td>
+<td valign="top">
+
+A multi brand documentation site serving both products from one codebase — per brand
+theming and environment driven builds, a shared MDX component layer, a generated client
+side search index, and content authored in a headless CMS rather than committed as files.
+
+<sub><kbd>Docusaurus</kbd> <kbd>React</kbd> <kbd>Sass</kbd> <kbd>Sanity</kbd></sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+## Libraries I maintain
+
+Three React and design token libraries I designed, built and publish to npm. All are
+versioned, consumed by shipping applications, and open to read.
+
+[![citron-ds](https://img.shields.io/npm/v/@citron-systems/citron-ds?style=flat-square&label=%40citron-systems%2Fcitron-ds&labelColor=dcd8d1&color=14120f)](https://www.npmjs.com/package/@citron-systems/citron-ds)
+[![citron-ui](https://img.shields.io/npm/v/@citron-systems/citron-ui?style=flat-square&label=%40citron-systems%2Fcitron-ui&labelColor=dcd8d1&color=14120f)](https://www.npmjs.com/package/@citron-systems/citron-ui)
+[![nexcomponent](https://img.shields.io/npm/v/@nexcomponent/lib?style=flat-square&label=%40nexcomponent%2Flib&labelColor=dcd8d1&color=14120f)](https://www.npmjs.com/package/@nexcomponent/lib)
+
+| Package | What it is |
+| --- | --- |
+| **`citron-ds`** | A design token system built on Style Dictionary. One source of truth compiles to CSS custom properties, SCSS, JS and a machine readable JSON reference, and ships self hosted fonts and motion tokens alongside it. MIT licensed. |
+| **`citron-ui`** | An accessible, token driven React component library — the shared UI layer beneath the applications below. |
+| **`@nexcomponent/lib`** | A React UI library shipped as parallel ESM and CJS builds with generated type declarations. |
 
 The components are the easy part. The value is in the contract: consumers reference
-*semantic* tokens, never raw values, so a rebrand is a token rebuild rather than a find and
-replace across four repositories — and a contrast fix lands everywhere at once.
+*semantic* tokens, never raw values, so a rebrand becomes a token rebuild rather than a
+find and replace across four repositories, and a contrast fix lands everywhere at once.
 
 ---
 
-## Selected work
+## Independent projects
 
-### Citron — AI native business operating system
+**A modular business platform** — CRM, sales, finance, inventory and operations in one
+system, over a normalised schema with role based access across user tiers. Includes a point
+of sale module that is offline first: orders and reservations are written locally and
+reconciled by a sync layer, because a restaurant does not stop taking orders when the
+network does.
 
-Replaces a business's separate CRM, sales, finance, inventory and operations tools with one
-system: invoicing, analytics, an assistant layer, and a restaurant POS module.
+<sub><kbd>React</kbd> <kbd>TypeScript</kbd> <kbd>Node.js</kbd> <kbd>.NET</kbd> <kbd>SQL Server</kbd></sub>
 
-A modular service layer over a normalised schema with role based access across user tiers,
-and a React frontend built entirely on the shared component library above. The POS is
-offline first — orders and reservations are written locally and reconciled by a sync layer,
-because a restaurant does not stop taking orders when the network does.
+**Real time WebGL** — a scroll driven GPU fluid simulation rendered with custom GLSL and a
+worker based scene layout, built to hold its frame budget on mid range hardware. The whole
+visual layer is a hand built token system, no utility framework.
 
-<sub>React · TypeScript · Node.js · .NET · SQL Server</sub>
+<sub><kbd>Three.js</kbd> <kbd>GLSL</kbd> <kbd>GSAP</kbd> <kbd>React 19</kbd> <kbd>Vite</kbd></sub>
 
-### KORVUE and FitVue — one codebase, four targets
+**Earlier** — led the development team on a web delivered educational game platform built
+for the Polish education system.
 
-Commercial platforms at Verasoft Labs shipping to web, iOS, Android and desktop from a
-single shared codebase. I lead architecture and development and own the release process end
-to end — build configuration, store submissions, versioning and rollout.
-
-<sub>TypeScript · Ionic · Capacitor · Electron</sub>
-
-### Inkblot Studio — studio site and WebGL work
-
-My studio's site: a GPU fluid simulation of black ink on paper as the homepage hero,
-draining into a projects gallery on scroll. Three.js with a WebGL worker layout and custom
-GLSL, GSAP for motion, React 19 on Vite.
-
-Deliberately no Tailwind and no component framework — the entire visual layer is a hand
-built token system, which is what let the hero stay inside its performance budget on
-mid range hardware.
-
-<sub>React 19 · Three.js · GLSL · GSAP · Vite</sub>
-
-### Educational game platform
-
-Web delivered learning games built for the Polish education system. I led the development
-team and owned delivery.
-
-<sub>JavaScript · Unity · WebGL</sub>
+<sub><kbd>JavaScript</kbd> <kbd>Unity</kbd> <kbd>WebGL</kbd></sub>
 
 ---
 
 ## How I work
 
-**Tokens before components.** A design system that exposes raw hex values has already
-failed; the abstraction is the deliverable.
+> **Tokens before components.** A design system that exposes raw hex values has already
+> failed. The abstraction is the deliverable.
 
-**Performance is a budget, not a phase.** Numbers get set before the first commit and the
-build fails when they are missed — that is the only version of this that survives a deadline.
+> **Performance is a budget, not a phase.** Numbers get set before the first commit and the
+> build fails when they are missed. That is the only version of this that survives a deadline.
 
-**Offline and failure states are part of the feature.** The network drops, the request
-times out, the tab is restored from three days ago. If that path is undesigned, the feature
-is not finished.
+> **Offline and failure states are part of the feature.** The network drops, the request
+> times out, the tab is restored from three days ago. If that path is undesigned, the
+> feature is not finished.
 
-**Whoever writes it, ships it.** I own releases for what I build. Owning the pipeline is
-what keeps the architecture honest.
-
-**Readable beats clever.** The next engineer to open the file might be me in eight months,
-with none of the context.
+> **Readable beats clever.** The next engineer to open the file might be me in eight months,
+> with none of the context.
 
 ---
 
 ## Stack
 
-**Daily** — TypeScript · React · Node.js · Sass · Vite · Storybook · Style Dictionary
+**Daily** <kbd>TypeScript</kbd> <kbd>React</kbd> <kbd>Node.js</kbd> <kbd>Sass</kbd> <kbd>Vite</kbd> <kbd>Storybook</kbd> <kbd>Style&nbsp;Dictionary</kbd>
 
-**Also shipped with** — .NET and C# · SQL Server · Express · Angular · Redux · Three.js and
-GLSL · Ionic, Capacitor and Electron · Flutter · Firebase · AWS and Vercel · GitHub Actions
+**Also shipped with** <kbd>.NET</kbd> <kbd>C#</kbd> <kbd>SQL&nbsp;Server</kbd> <kbd>Express</kbd> <kbd>Angular</kbd> <kbd>Redux</kbd> <kbd>Three.js</kbd> <kbd>GLSL</kbd> <kbd>Ionic</kbd> <kbd>Capacitor</kbd> <kbd>Electron</kbd> <kbd>Flutter</kbd> <kbd>Firebase</kbd> <kbd>AWS</kbd> <kbd>Vercel</kbd>
 
-**Adjacent** — Figma, and enough of the Adobe suite to produce my own assets rather than
-wait on them.
+**Adjacent** <kbd>Figma</kbd> — and enough of the Adobe suite to produce my own assets rather than wait on them.
 
 ---
 
-## Elsewhere
+<sub>Bulgarian native · English C1 · German A2</sub>
 
-[LinkedIn](https://www.linkedin.com/in/georgi-dryanovski-896072230/) ·
-[Inkblot Studio](https://inkblotstudio.eu) ·
-[Citron](https://citronos.com) ·
-[npm](https://www.npmjs.com/package/@citron-systems/citron-ds)
-
-Bulgarian native, English C1, German A2. Open to senior frontend and full stack roles, and
-always up for a conversation about design systems or a rendering problem that should not be
-this hard.
+Always up for a conversation about design systems, frontend architecture, or a rendering
+problem that should not be this hard.
