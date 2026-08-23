@@ -1,145 +1,129 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Georgi Dryanovski — software engineer at Verasoft Labs. Frontend architecture, cross platform product work, design systems." src="assets/banner-light.svg" width="100%">
+  <img alt="Georgi Dryanovski — Lead Web Developer at Verasoft Labs. Full stack, frontend focused." src="assets/banner-light.svg" width="100%">
 </picture>
 
-**Georgi Dryanovski** — Software Engineer at Verasoft Labs, Burgas, Bulgaria
-[LinkedIn](https://www.linkedin.com/in/georgi-dryanovski-896072230/) · [Email](mailto:georgidrianovski@abv.bg)
+<p align="center">
+  <a href="https://www.linkedin.com/in/georgi-dryanovski">LinkedIn</a> ·
+  <a href="mailto:georgidrianovski@abv.bg">georgidrianovski@abv.bg</a> ·
+  Burgas, Bulgaria
+</p>
 
 ---
 
-## What I do
-
-Five plus years building products end to end, with the centre of gravity on the frontend.
-At Verasoft Labs I work on the company's business management platform for the salon, spa
-and wellness sector, and own the release process for what I build.
-
----
-
-## At Verasoft Labs
-
-The platform ships under the **KORVUE** and **FitVue** brands — substantially the same
-system presented to different markets — and has been in continuous development since 2000.
-That history is the interesting part of the job: the product runs on web, mobile and
-desktop, and the codebase carries several generations of frontend technology at the same
-time, from Sencha Touch 2 through Ionic, Angular and React to Flutter.
-
-My work runs across that span.
-
-<table>
-<tr>
-<td width="32%" valign="top">
-
-**Rebuilding legacy on Flutter**
-
-</td>
-<td valign="top">
-
-The oldest Sencha Touch 2 modules, and parts of the Ionic and Angular layers, are being
-rebuilt on Flutter. The constraint is that the product stays in service throughout, so the
-new modules have to interoperate with the generations they are replacing rather than
-landing as a clean break.
-
-<sub><kbd>Flutter</kbd> <kbd>Dart</kbd> <kbd>Sencha&nbsp;Touch&nbsp;2</kbd> <kbd>Ionic</kbd> <kbd>Angular</kbd></sub>
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**React applications**
-
-</td>
-<td valign="top">
-
-Maintaining and extending the React side of the product line, which carries current feature
-work.
-
-<sub><kbd>React</kbd> <kbd>TypeScript</kbd> <kbd>Sass</kbd></sub>
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Releases**
-
-</td>
-<td valign="top">
-
-Build configuration per target, versioning, store submission and rollout.
-
-<sub><kbd>GitHub&nbsp;Actions</kbd> <kbd>Capacitor</kbd> <kbd>Electron</kbd></sub>
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Documentation platform**
-
-</td>
-<td valign="top">
-
-A multi brand documentation site serving both brands from one codebase, with per brand
-theming, a shared MDX component layer and content authored in a headless CMS.
-
-<sub><kbd>Docusaurus</kbd> <kbd>React</kbd> <kbd>Sanity</kbd></sub>
-
-</td>
-</tr>
-</table>
+Full stack software engineer with **6 years** building and scaling web, mobile and desktop
+products — professionally since 2022, with earlier engineering roles from 2020. Strongest on
+the frontend, writing fast, polished React and TypeScript interfaces backed by Node.js
+and .NET services. Comfortable across the full lifecycle: architecting reliable systems,
+shipping features that hold up under real load, owning CI/CD and releases, and applying AI
+and automation to speed up how software gets built.
 
 ---
 
-## Libraries I maintain
+## Experience
 
-Three React and design token libraries I designed, built and publish to npm. All are
-versioned, used by shipping applications, and open to read.
+### Lead Web Developer · Verasoft Labs
+<sub>December 2022 – Present · Remote</sub>
 
-[![citron-ds](https://img.shields.io/npm/v/@citron-systems/citron-ds?style=flat-square&label=%40citron-systems%2Fcitron-ds&labelColor=dcd8d1&color=14120f)](https://www.npmjs.com/package/@citron-systems/citron-ds)
-[![citron-ui](https://img.shields.io/npm/v/@citron-systems/citron-ui?style=flat-square&label=%40citron-systems%2Fcitron-ui&labelColor=dcd8d1&color=14120f)](https://www.npmjs.com/package/@citron-systems/citron-ui)
-[![nexcomponent](https://img.shields.io/npm/v/@nexcomponent/lib?style=flat-square&label=%40nexcomponent%2Flib&labelColor=dcd8d1&color=14120f)](https://www.npmjs.com/package/@nexcomponent/lib)
+Lead the strategy, development and optimization of the **KORVUE** and **FitVue** platforms —
+commercial products for the salon, spa and wellness sector, shipped across web, mobile and
+desktop from a shared codebase and in continuous development since 2000.
 
-| Package | What it is |
-| --- | --- |
-| **`citron-ds`** | A design token system built on Style Dictionary. One source of truth compiles to CSS custom properties, SCSS, JS and a JSON reference, and ships self hosted fonts and motion tokens alongside it. MIT licensed. |
-| **`citron-ui`** | An accessible, token driven React component library. |
-| **`@nexcomponent/lib`** | A React UI library shipped as parallel ESM and CJS builds with generated type declarations. |
+- Drive system architecture and development workflows to keep the platforms fast, scalable
+  and reliable as they grow, with a strong focus on user experience.
+- Rebuild the oldest Sencha Touch 2 modules, and parts of the Ionic and Angular layers, on
+  Flutter — while the product stays in service, so new modules interoperate with the
+  generations they replace rather than landing as a clean break.
+- Maintain and extend the React applications that carry current feature work.
+- Own CI/CD pipelines and app deployment end to end, making releases across all major
+  platforms repeatable and low risk.
+- Produce client facing documentation that improves usability and adoption while reducing
+  support load.
 
-Consumers reference semantic tokens rather than raw values, so a brand change is a token
-rebuild instead of a find and replace across every repository that uses them.
+<sub><kbd>Flutter</kbd> <kbd>React</kbd> <kbd>TypeScript</kbd> <kbd>Angular</kbd> <kbd>Ionic</kbd> <kbd>Sencha&nbsp;Touch</kbd> <kbd>Capacitor</kbd> <kbd>Electron</kbd> <kbd>CI/CD</kbd></sub>
 
----
+### Independent / Freelance Software Engineer
+<sub>2022 – Present · Remote</sub>
 
-## Independent projects
+Production grade web, mobile and enterprise applications for business clients across several
+industries, owned from architecture through deployment and ongoing maintenance.
 
-**A modular business platform** — CRM, sales, finance, inventory and operations over a
-normalised schema with role based access across user tiers, including an offline first
-point of sale module that writes locally and reconciles through a sync layer.
+- Designed and built **Citron**, an ERP platform that replaces a business's separate CRM,
+  sales, finance, inventory and operations tools with a single AI powered system, including
+  invoicing, analytics and a restaurant point of sale module.
+- Engineered it for scale and maintainability: a modular Node.js and .NET service layer, a
+  normalized SQL Server schema with role based access control across user tiers, and a
+  React and TypeScript frontend built on reusable component libraries.
+- Implemented real time data synchronization, automated reporting and analytics dashboards,
+  and third party integrations — replacing manual, error prone back office processes with
+  automated workflows.
+- Set engineering standards across projects: CI/CD, code review, testing and documentation.
+- Led client discovery and technical scoping, translating ambiguous business requirements
+  into clear specifications and delivered products.
 
 <sub><kbd>React</kbd> <kbd>TypeScript</kbd> <kbd>Node.js</kbd> <kbd>.NET</kbd> <kbd>SQL&nbsp;Server</kbd></sub>
 
-**Real time WebGL** — a scroll driven GPU fluid simulation with custom GLSL shaders and a
-worker based scene layout, built to hold its frame budget on mid range hardware.
+### Team Lead · IGS Production EOOD
+<sub>December 2021 – August 2022 · Remote</sub>
 
-<sub><kbd>Three.js</kbd> <kbd>GLSL</kbd> <kbd>GSAP</kbd> <kbd>React</kbd> <kbd>Vite</kbd></sub>
-
-**Earlier** — led the development team on a web delivered educational game platform built
-for the Polish education system.
+- Managed a team of developers building web based educational games for the Polish education
+  system.
+- Directed project execution end to end, delivering scalable, responsive content on time.
+- Mentored and guided developers to raise technical quality across all projects.
 
 <sub><kbd>JavaScript</kbd> <kbd>Unity</kbd> <kbd>WebGL</kbd></sub>
 
 ---
 
-## Stack
+## Published libraries
 
-**Daily** <kbd>TypeScript</kbd> <kbd>React</kbd> <kbd>Flutter</kbd> <kbd>Dart</kbd> <kbd>Sass</kbd> <kbd>Vite</kbd> <kbd>Style&nbsp;Dictionary</kbd>
+React and design token libraries I build and publish to npm — versioned, used by shipping
+applications, and open to read.
 
-**Also shipped with** <kbd>Angular</kbd> <kbd>Ionic</kbd> <kbd>Capacitor</kbd> <kbd>Electron</kbd> <kbd>Sencha&nbsp;Touch&nbsp;2</kbd> <kbd>Node.js</kbd> <kbd>Express</kbd> <kbd>.NET</kbd> <kbd>C#</kbd> <kbd>SQL&nbsp;Server</kbd> <kbd>Redux</kbd> <kbd>Three.js</kbd> <kbd>GLSL</kbd> <kbd>Firebase</kbd> <kbd>AWS</kbd> <kbd>Vercel</kbd> <kbd>Storybook</kbd>
+[![citron-ds](https://img.shields.io/npm/v/@citron-systems/citron-ds?style=flat-square&label=%40citron-systems%2Fcitron-ds&labelColor=dcd8d1&color=14120f)](https://www.npmjs.com/package/@citron-systems/citron-ds)
+[![citron-ui](https://img.shields.io/npm/v/@citron-systems/citron-ui?style=flat-square&label=%40citron-systems%2Fcitron-ui&labelColor=dcd8d1&color=14120f)](https://www.npmjs.com/package/@citron-systems/citron-ui)
+[![nexcomponent](https://img.shields.io/npm/v/@nexcomponent/lib?style=flat-square&label=%40nexcomponent%2Flib&labelColor=dcd8d1&color=14120f)](https://www.npmjs.com/package/@nexcomponent/lib)
 
-**Adjacent** <kbd>Figma</kbd> <kbd>Docusaurus</kbd> <kbd>Sanity</kbd> <kbd>Git</kbd> <kbd>GitHub&nbsp;Actions</kbd> <kbd>Jira</kbd>
+A design token system built on Style Dictionary that compiles one source of truth to CSS
+custom properties, SCSS, JS and JSON; an accessible token driven React component library;
+and a React UI library shipped as parallel ESM and CJS builds with generated types.
 
 ---
 
-<sub>Bulgarian native · English C1 · German A2</sub>
+## Technical skills
+
+| | |
+| --- | --- |
+| **Frontend** | JavaScript (ES6+), TypeScript, React, Redux, Angular, Storybook, Tailwind CSS, Sass / Less, Bootstrap, Ext JS, Sencha Touch |
+| **Backend** | Node.js, Express, .NET, C#, C++ · REST and GraphQL APIs, Swagger / OpenAPI |
+| **Databases** | Microsoft SQL Server, Firebase (Realtime Database, Firestore) |
+| **Mobile & desktop** | Flutter, Ionic, Cordova, Capacitor, Xamarin, Electron, WinForms |
+| **DevOps & tooling** | Git, CI/CD pipelines, AWS, Vercel, Vite, Firebase Hosting, Ubuntu server management |
+| **CMS & e-commerce** | WordPress, WooCommerce, headless CMS |
+| **Practices** | Agile and Scrum, code review, testing, technical documentation, client discovery and scoping, team leadership |
+
+---
+
+<details>
+<summary><b>Education and certificates</b></summary>
+
+<br/>
+
+**B.Sc. Software Engineering** *(in progress)* — Burgas Free University, Bulgaria
+
+**Vocational School of Computer Programming and Innovation** — Burgas, graduated 2024 · EQF Level 3
+
+Microsoft Technology Associate — Introduction to Programming using HTML and CSS (2020) ·
+Microsoft Technology Associate — Introduction to Programming using JavaScript (2021) ·
+Microsoft Office Specialist — Word 2016 (2020) ·
+Adobe Certified Professional — Graphic Design and Illustration using Illustrator (2022) ·
+Adobe Certified Professional — Visual Design using Photoshop (2022) ·
+Adobe Certified Professional — Visual Design (2022)
+
+<sub>All credentials verifiable at certiport.com</sub>
+
+</details>
+
+---
+
+<sub>Bulgarian — Native · English — C1 · German — A2</sub>
