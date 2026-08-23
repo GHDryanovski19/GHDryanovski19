@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Georgi Dryanovski — built to outlast the rewrite">
+  <title>Georgi Dryanovski — full stack engineer</title>
+
+  <!-- ink -->
+  <rect width="1200" height="300" fill="#14120f"/>
+
+  <!-- paper bloom on ink -->
+  <!-- optical correction: a paper mark on ink reads heavier than ink on paper -->
+  <g fill="#f7f6f4" transform="translate(1092,162) scale(0.82) translate(-1092,-162)">
+    <path d="M1090 68 C1130 66, 1162 96, 1166 134 C1170 170, 1148 190, 1150 216 C1152 244, 1122 262, 1092 256 C1058 250, 1030 232, 1018 202 C1006 172, 1016 140, 1030 116 C1044 90, 1062 70, 1090 68 Z"/>
+    <circle cx="1186" cy="92" r="8"/>
+    <circle cx="1176" cy="214" r="5"/>
+    <circle cx="1000" cy="258" r="4.5"/>
+    <circle cx="1192" cy="156" r="3"/>
+  </g>
+
+  <!-- hairline -->
+  <rect x="80" y="70" width="56" height="1" fill="#3d3a34"/>
+
+  <text x="80" y="112"
+        font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="12.5" letter-spacing="1.55" fill="#f7f6f4">FULL STACK ENGINEER · FRONTEND ARCHITECTURE · BURGAS, BG</text>
+
+  <text x="80" y="186"
+        font-family="Fraunces, Georgia, 'Times New Roman', serif"
+        font-size="56" font-weight="400" letter-spacing="-2" fill="#f7f6f4">Built to outlast the <tspan font-style="italic">rewrite.</tspan></text>
+
+  <text x="80" y="232"
+        font-family="Outfit, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="19" fill="#b9b2a6">Design systems, multi platform product work, and the release pipeline behind them.</text>
+</svg>
