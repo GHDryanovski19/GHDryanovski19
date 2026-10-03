@@ -1,129 +1,65 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Georgi Dryanovski — Lead Web Developer at Verasoft Labs. Full stack, frontend focused." src="assets/banner-light.svg" width="100%">
+  <img alt="Georgi Dryanovski. Founding engineer at Hintora, co-owner of Inkblot Studio." src="assets/banner-light.svg" width="100%">
 </picture>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/georgi-dryanovski">LinkedIn</a> ·
-  <a href="mailto:georgidrianovski@abv.bg">georgidrianovski@abv.bg</a> ·
-  Burgas, Bulgaria
-</p>
+[hintora.ai](https://hintora.ai) &nbsp;·&nbsp; [inkblotstudio.eu](https://inkblotstudio.eu) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/georgi-dryanovski-896072230) &nbsp;·&nbsp; [georgidrianovski@abv.bg](mailto:georgidrianovski@abv.bg)
 
----
+<br>
 
-Full stack software engineer with **6 years** building and scaling web, mobile and desktop
-products — professionally since 2022, with earlier engineering roles from 2020. Strongest on
-the frontend, writing fast, polished React and TypeScript interfaces backed by Node.js
-and .NET services. Comfortable across the full lifecycle: architecting reliable systems,
-shipping features that hold up under real load, owning CI/CD and releases, and applying AI
-and automation to speed up how software gets built.
+Six years shipping production software across web, mobile and desktop. I take products from the
+first sketch to the release pipeline — mostly React and TypeScript over Node.js and .NET, and
+lately with AI at the centre.
 
----
+<br>
 
-## Experience
+### Now
 
-### Lead Web Developer · Verasoft Labs
-<sub>December 2022 – Present · Remote</sub>
+**Hintora** &nbsp;<sub>Founding engineer · 2026 –</sub><br>
+A voice assistant that sees your screen, teaches step by step and handles the busywork.
+I lead engineering on the platform: the Mac app, the API, the dashboard and the release pipeline.
 
-Lead the strategy, development and optimization of the **KORVUE** and **FitVue** platforms —
-commercial products for the salon, spa and wellness sector, shipped across web, mobile and
-desktop from a shared codebase and in continuous development since 2000.
+**Inkblot Studio** &nbsp;<sub>Co-owner, technical lead · 2026 –</sub><br>
+A software studio in Burgas. We build Citron — CRM, ERP and point of sale behind one sign-in,
+with AI throughout — and products for clients. I have been building its products since 2022.
 
-- Drive system architecture and development workflows to keep the platforms fast, scalable
-  and reliable as they grow, with a strong focus on user experience.
-- Rebuild the oldest Sencha Touch 2 modules, and parts of the Ionic and Angular layers, on
-  Flutter — while the product stays in service, so new modules interoperate with the
-  generations they replace rather than landing as a clean break.
-- Maintain and extend the React applications that carry current feature work.
-- Own CI/CD pipelines and app deployment end to end, making releases across all major
-  platforms repeatable and low risk.
-- Produce client facing documentation that improves usability and adoption while reducing
-  support load.
+**Verasoft Labs** &nbsp;<sub>Lead web developer · 2022 –</sub><br>
+I lead a commercial SaaS platform for the wellness sector, in development since 2000 and shipped
+to web, mobile and desktop from one codebase. Its oldest modules move to Flutter while it stays in service.
 
-<sub><kbd>Flutter</kbd> <kbd>React</kbd> <kbd>TypeScript</kbd> <kbd>Angular</kbd> <kbd>Ionic</kbd> <kbd>Sencha&nbsp;Touch</kbd> <kbd>Capacitor</kbd> <kbd>Electron</kbd> <kbd>CI/CD</kbd></sub>
+<sub>Earlier: team lead at IGS Production (2021 – 2022), building web games for the Polish school system.</sub>
 
-### Independent / Freelance Software Engineer
-<sub>2022 – Present · Remote</sub>
+<br>
 
-Production grade web, mobile and enterprise applications for business clients across several
-industries, owned from architecture through deployment and ongoing maintenance.
+### Open source
 
-- Designed and built **Citron**, an ERP platform that replaces a business's separate CRM,
-  sales, finance, inventory and operations tools with a single AI powered system, including
-  invoicing, analytics and a restaurant point of sale module.
-- Engineered it for scale and maintainability: a modular Node.js and .NET service layer, a
-  normalized SQL Server schema with role based access control across user tiers, and a
-  React and TypeScript frontend built on reusable component libraries.
-- Implemented real time data synchronization, automated reporting and analytics dashboards,
-  and third party integrations — replacing manual, error prone back office processes with
-  automated workflows.
-- Set engineering standards across projects: CI/CD, code review, testing and documentation.
-- Led client discovery and technical scoping, translating ambiguous business requirements
-  into clear specifications and delivered products.
+Libraries I publish to npm and use in shipping products.
 
-<sub><kbd>React</kbd> <kbd>TypeScript</kbd> <kbd>Node.js</kbd> <kbd>.NET</kbd> <kbd>SQL&nbsp;Server</kbd></sub>
+- [`@citron-systems/citron-ds`](https://www.npmjs.com/package/@citron-systems/citron-ds) &nbsp;Design tokens: one source compiled to CSS, SCSS, JS and JSON
+- [`@citron-systems/citron-ui`](https://www.npmjs.com/package/@citron-systems/citron-ui) &nbsp;Accessible, token-driven React components
+- [`@nexcomponent/lib`](https://www.npmjs.com/package/@nexcomponent/lib) &nbsp;React UI library, shipped as ESM and CJS with generated types
 
-### Team Lead · IGS Production EOOD
-<sub>December 2021 – August 2022 · Remote</sub>
+<br>
 
-- Managed a team of developers building web based educational games for the Polish education
-  system.
-- Directed project execution end to end, delivering scalable, responsive content on time.
-- Mentored and guided developers to raise technical quality across all projects.
+### Stack
 
-<sub><kbd>JavaScript</kbd> <kbd>Unity</kbd> <kbd>WebGL</kbd></sub>
+**Daily** &nbsp; React · TypeScript · Node.js · .NET · Flutter<br>
+**Also** &nbsp; Angular · Ionic · Electron · Capacitor · SQL Server · Postgres · AWS · Vercel · CI/CD
 
----
-
-## Published libraries
-
-React and design token libraries I build and publish to npm — versioned, used by shipping
-applications, and open to read.
-
-[![citron-ds](https://img.shields.io/npm/v/@citron-systems/citron-ds?style=flat-square&label=%40citron-systems%2Fcitron-ds&labelColor=dcd8d1&color=14120f)](https://www.npmjs.com/package/@citron-systems/citron-ds)
-[![citron-ui](https://img.shields.io/npm/v/@citron-systems/citron-ui?style=flat-square&label=%40citron-systems%2Fcitron-ui&labelColor=dcd8d1&color=14120f)](https://www.npmjs.com/package/@citron-systems/citron-ui)
-[![nexcomponent](https://img.shields.io/npm/v/@nexcomponent/lib?style=flat-square&label=%40nexcomponent%2Flib&labelColor=dcd8d1&color=14120f)](https://www.npmjs.com/package/@nexcomponent/lib)
-
-A design token system built on Style Dictionary that compiles one source of truth to CSS
-custom properties, SCSS, JS and JSON; an accessible token driven React component library;
-and a React UI library shipped as parallel ESM and CJS builds with generated types.
-
----
-
-## Technical skills
-
-| | |
-| --- | --- |
-| **Frontend** | JavaScript (ES6+), TypeScript, React, Redux, Angular, Storybook, Tailwind CSS, Sass / Less, Bootstrap, Ext JS, Sencha Touch |
-| **Backend** | Node.js, Express, .NET, C#, C++ · REST and GraphQL APIs, Swagger / OpenAPI |
-| **Databases** | Microsoft SQL Server, Firebase (Realtime Database, Firestore) |
-| **Mobile & desktop** | Flutter, Ionic, Cordova, Capacitor, Xamarin, Electron, WinForms |
-| **DevOps & tooling** | Git, CI/CD pipelines, AWS, Vercel, Vite, Firebase Hosting, Ubuntu server management |
-| **CMS & e-commerce** | WordPress, WooCommerce, headless CMS |
-| **Practices** | Agile and Scrum, code review, testing, technical documentation, client discovery and scoping, team leadership |
-
----
+<br>
 
 <details>
 <summary><b>Education and certificates</b></summary>
 
-<br/>
+<br>
 
-**B.Sc. Software Engineering** *(in progress)* — Burgas Free University, Bulgaria
+**B.Sc. Software Engineering** <sub>(in progress)</sub> · Burgas Free University<br>
+**Vocational School of Computer Programming and Innovation** · Burgas, 2024
 
-**Vocational School of Computer Programming and Innovation** — Burgas, graduated 2024 · EQF Level 3
-
-Microsoft Technology Associate — Introduction to Programming using HTML and CSS (2020) ·
-Microsoft Technology Associate — Introduction to Programming using JavaScript (2021) ·
-Microsoft Office Specialist — Word 2016 (2020) ·
-Adobe Certified Professional — Graphic Design and Illustration using Illustrator (2022) ·
-Adobe Certified Professional — Visual Design using Photoshop (2022) ·
-Adobe Certified Professional — Visual Design (2022)
-
-<sub>All credentials verifiable at certiport.com</sub>
+Microsoft Technology Associate in HTML and CSS (2020) and JavaScript (2021) ·
+Adobe Certified Professional in Visual Design, Photoshop and Illustrator (2022) ·
+Microsoft Office Specialist, Word (2020) · <sub>verifiable at certiport.com</sub>
 
 </details>
 
----
-
-<sub>Bulgarian — Native · English — C1 · German — A2</sub>
+<sub>Bulgarian, native · English, C1 · German, A2</sub>
