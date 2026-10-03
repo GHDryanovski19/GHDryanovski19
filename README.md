@@ -15,19 +15,19 @@ lately with AI at the centre.
 
 ### Now
 
-**Hintora** &nbsp;<sub>Founding engineer · 2026 –</sub><br>
+**Hintora** &nbsp;<sub>Founding engineer · 2026&nbsp;–</sub><br>
 A voice assistant that sees your screen, teaches step by step and handles the busywork.
 I lead engineering on the platform: the Mac app, the API, the dashboard and the release pipeline.
 
-**Inkblot Studio** &nbsp;<sub>Co-owner, technical lead · 2026 –</sub><br>
+**Inkblot Studio** &nbsp;<sub>Co-owner, technical&nbsp;lead · 2026&nbsp;–</sub><br>
 A software studio in Burgas. We build Citron — CRM, ERP and point of sale behind one sign-in,
 with AI throughout — and products for clients. I have been building its products since 2022.
 
-**Verasoft Labs** &nbsp;<sub>Lead web developer · 2022 –</sub><br>
+**Verasoft Labs** &nbsp;<sub>Lead web developer · 2022&nbsp;–</sub><br>
 I lead a commercial SaaS platform for the wellness sector, in development since 2000 and shipped
 to web, mobile and desktop from one codebase. Its oldest modules move to Flutter while it stays in service.
 
-<sub>Earlier: team lead at IGS Production (2021 – 2022), building web games for the Polish school system.</sub>
+<sub>Earlier: team lead at IGS Production (2021&nbsp;–&nbsp;2022), building web games for the Polish school system.</sub>
 
 <br>
 
