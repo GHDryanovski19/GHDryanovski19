@@ -7,37 +7,39 @@
 
 <br>
 
-Six years shipping production software across web, mobile and desktop. I take products from the
-first sketch to the release pipeline — mostly React and TypeScript over Node.js and .NET, and
-lately with AI at the centre.
+I've been shipping production software for six years, on the web, on phones and on the desktop.
+I like owning a product from the first sketch all the way to the release. Most of my work is React
+and TypeScript with Node.js or .NET behind it, and these days a lot of it involves AI.
 
 <br>
 
 ### Now
 
-**Hintora** &nbsp;<sub>Founding engineer · 2026&nbsp;–</sub><br>
-A voice assistant that sees your screen, teaches step by step and handles the busywork.
-I lead engineering on the platform: the Mac app, the API, the dashboard and the release pipeline.
+**Hintora** &nbsp;<sub>Founding engineer, since 2026</sub><br>
+A voice assistant that can see your screen, walk you through things step by step and take care of
+the busywork. I lead engineering across the Mac app, the API, the dashboard and the release pipeline.
 
-**Inkblot Studio** &nbsp;<sub>Co-owner, technical&nbsp;lead · 2026&nbsp;–</sub><br>
-A software studio in Burgas. We build Citron — CRM, ERP and point of sale behind one sign-in,
-with AI throughout — and products for clients. I have been building its products since 2022.
+**Inkblot Studio** &nbsp;<sub>Co-owner and technical&nbsp;lead, since 2026</sub><br>
+A software studio in Burgas. Our main product is Citron, which puts CRM, ERP and point of sale behind
+a single sign-in, with AI built into each part. We also build products for clients. I've been working
+on the studio's products since 2022.
 
-**Verasoft Labs** &nbsp;<sub>Lead web developer · 2022&nbsp;–</sub><br>
-I lead a commercial SaaS platform for the wellness sector, in development since 2000 and shipped
-to web, mobile and desktop from one codebase. Its oldest modules move to Flutter while it stays in service.
+**Verasoft Labs** &nbsp;<sub>Lead web developer, since 2022</sub><br>
+I lead work on a commercial SaaS platform for the wellness sector. It has been in development since 2000
+and ships to web, mobile and desktop from one codebase. We're moving its oldest modules to Flutter
+while it stays live for customers.
 
-<sub>Earlier: team lead at IGS Production (2021&nbsp;–&nbsp;2022), building web games for the Polish school system.</sub>
+<sub>Earlier: team lead at IGS Production (2021 to 2022), where I built web games for the Polish school system.</sub>
 
 <br>
 
 ### Open source
 
-Libraries I publish to npm and use in shipping products.
+Libraries I publish on npm and use in real products.
 
-- [`@citron-systems/citron-ds`](https://www.npmjs.com/package/@citron-systems/citron-ds) &nbsp;Design tokens: one source compiled to CSS, SCSS, JS and JSON
-- [`@citron-systems/citron-ui`](https://www.npmjs.com/package/@citron-systems/citron-ui) &nbsp;Accessible, token-driven React components
-- [`@nexcomponent/lib`](https://www.npmjs.com/package/@nexcomponent/lib) &nbsp;React UI library, shipped as ESM and CJS with generated types
+- [`@citron-systems/citron-ds`](https://www.npmjs.com/package/@citron-systems/citron-ds) <br>Design tokens kept in one place and compiled to CSS, SCSS, JS and JSON
+- [`@citron-systems/citron-ui`](https://www.npmjs.com/package/@citron-systems/citron-ui) <br>Accessible React components built on those tokens
+- [`@nexcomponent/lib`](https://www.npmjs.com/package/@nexcomponent/lib) <br>A React UI library, published as ESM and CJS with generated types
 
 <br>
 
