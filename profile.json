@@ -1,0 +1,59 @@
+{
+  "_about": "Hand-kept facts. Everything that changes by itself (contributions, streaks, repos, stars, npm downloads) is fetched by scripts/build.py and never typed here. Text comes from Georgi's CV, his GitHub bio and his own words.",
+  "user": "GHDryanovski19",
+  "name": "Georgi Dryanovski",
+  "faith": "Disciple of Jesus Christ",
+  "dream": "Going to be the greatest inventor in the world.",
+  "role": "Software engineer. Six years shipping to web, phones and desktop.",
+  "place": "Burgas, Bulgaria",
+  "now": "Building Hintora",
+  "links": [
+    {"label": "hintora.ai", "url": "https://hintora.ai"},
+    {"label": "inkblotstudio.eu", "url": "https://inkblotstudio.eu"},
+    {"label": "LinkedIn", "url": "https://www.linkedin.com/in/georgi-dryanovski-896072230"},
+    {"label": "Instagram", "url": "https://www.instagram.com/gdryanovski/"}
+  ],
+  "email": "georgidrianovski@abv.bg",
+  "work": [
+    {
+      "id": "hintora",
+      "name": "Hintora",
+      "role": "Founding engineer",
+      "since": "2026",
+      "url": "https://hintora.ai",
+      "line": "A voice assistant that can see your screen, walk you through things step by step and take care of the busywork.",
+      "mine": "I lead engineering across the Mac app, the API, the dashboard and the release pipeline.",
+      "chips": ["Mac app", "API", "Dashboard", "Releases", "AI"]
+    },
+    {
+      "id": "inkblot",
+      "name": "Inkblot Studio",
+      "role": "Co-owner, technical lead",
+      "since": "2026",
+      "url": "https://inkblotstudio.eu",
+      "line": "A software studio in Burgas. Its main product, Citron, puts CRM, ERP and point of sale behind one sign-in, with AI in each part.",
+      "mine": "On the studio's products since 2022. We also build for clients.",
+      "chips": ["Citron", "CRM", "ERP", "POS", "AI"]
+    },
+    {
+      "id": "verasoft",
+      "name": "Verasoft Labs",
+      "role": "Lead web developer",
+      "since": "2022",
+      "url": "",
+      "line": "A commercial SaaS platform for the wellness sector, in development since 2000 and used by thousands of businesses.",
+      "mine": "One codebase to web, mobile and desktop. Moving the oldest modules to Flutter while it stays live.",
+      "chips": ["SaaS", "Web", "Mobile", "Desktop", "Flutter"]
+    }
+  ],
+  "earlier": "Team lead at IGS Production (2021 to 2022): web games for the Polish school system.",
+  "packages": [
+    {"name": "@citron-systems/citron-ds", "line": "Design tokens in one place, compiled to CSS, SCSS, JS and JSON."},
+    {"name": "@citron-systems/citron-ui", "line": "Accessible React components built on those tokens."},
+    {"name": "@nexcomponent/lib", "line": "A React UI library, ESM and CJS, with generated types."}
+  ],
+  "stack": {
+    "Daily": ["React", "TypeScript", "Node.js", ".NET", "Flutter"],
+    "Also": ["Angular", "Ionic", "Electron", "Capacitor", "SQL Server", "Postgres", "AWS", "Vercel", "CI/CD"]
+  }
+}

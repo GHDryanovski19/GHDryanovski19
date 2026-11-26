@@ -1,54 +1,39 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Georgi Dryanovski. Founding engineer at Hintora, co-owner of Inkblot Studio." src="assets/banner-light.svg" width="100%">
-</picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/hero-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/hero-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Georgi Dryanovski. Disciple of Jesus Christ. Going to be the greatest inventor in the world. Software engineer. Six years shipping to web, phones and desktop."></picture>
 
-[hintora.ai](https://hintora.ai) &nbsp;·&nbsp; [inkblotstudio.eu](https://inkblotstudio.eu) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/georgi-dryanovski-896072230) &nbsp;·&nbsp; [georgidrianovski@abv.bg](mailto:georgidrianovski@abv.bg)
+<p>
+<a href="https://hintora.ai"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-0-dark.svg"><img src="assets/link-0-light.svg" height="40" alt="hintora.ai"></picture></a>
+<a href="https://inkblotstudio.eu"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-1-dark.svg"><img src="assets/link-1-light.svg" height="40" alt="inkblotstudio.eu"></picture></a>
+<a href="https://www.linkedin.com/in/georgi-dryanovski-896072230"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-2-dark.svg"><img src="assets/link-2-light.svg" height="40" alt="LinkedIn"></picture></a>
+<a href="https://www.instagram.com/gdryanovski/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-3-dark.svg"><img src="assets/link-3-light.svg" height="40" alt="Instagram"></picture></a>
+</p>
 
-<br>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/stats-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/stats-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="11,033 contributions in the last 12 months over 156 active days, 753 on the best day, longest streak 46 days, 12,609 since 2020"></picture>
 
-I've been shipping production software for six years, on the web, on phones and on the desktop.
-I like owning a product from the first sketch all the way to the release. Most of my work is React
-and TypeScript with Node.js or .NET behind it, and these days a lot of it involves AI.
+<details open><summary><sub>Activity</sub></summary>
 
-<br>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/year-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/year-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/year-dark.svg"><img src="assets/year-light.svg" width="100%" alt="11,033 contributions in the last year (phone: 10,749 in the last 6 months)"></picture>
 
-### Now
+</details>
 
-**Hintora** &nbsp;<sub>Founding engineer, since 2026</sub><br>
-A voice assistant that can see your screen, walk you through things step by step and take care of
-the busywork. I lead engineering across the Mac app, the API, the dashboard and the release pipeline.
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/years-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/years-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/years-dark.svg"><img src="assets/years-light.svg" width="100%" alt="Contributions per year: 2020: 46, 2021: 302, 2022: 356, 2023: 134, 2024: 288, 2025: 538, 2026: 10,945"></picture>
 
-**Inkblot Studio** &nbsp;<sub>Co-owner and technical&nbsp;lead, since 2026</sub><br>
-A software studio in Burgas. Our main product is Citron, which puts CRM, ERP and point of sale behind
-a single sign-in, with AI built into each part. We also build products for clients. I've been working
-on the studio's products since 2022.
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/label-now-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/label-now-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/label-now-dark.svg"><img src="assets/label-now-light.svg" width="100%" alt="Now"></picture>
 
-**Verasoft Labs** &nbsp;<sub>Lead web developer, since 2022</sub><br>
-I lead work on a commercial SaaS platform for the wellness sector. It has been in development since 2000
-and ships to web, mobile and desktop from one codebase. We're moving its oldest modules to Flutter
-while it stays live for customers.
+<a href="https://hintora.ai"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/work-hintora-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/work-hintora-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/work-hintora-dark.svg"><img src="assets/work-hintora-light.svg" width="100%" alt="Hintora, Founding engineer"></picture></a>
 
-<sub>Earlier: team lead at IGS Production (2021 to 2022), where I built web games for the Polish school system.</sub>
+<a href="https://inkblotstudio.eu"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/work-inkblot-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/work-inkblot-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/work-inkblot-dark.svg"><img src="assets/work-inkblot-light.svg" width="100%" alt="Inkblot Studio, Co-owner, technical lead"></picture></a>
 
-<br>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/work-verasoft-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/work-verasoft-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/work-verasoft-dark.svg"><img src="assets/work-verasoft-light.svg" width="100%" alt="Verasoft Labs, Lead web developer"></picture>
 
-### Open source
+<p><sub>Earlier: Team lead at IGS Production (2021 to 2022): web games for the Polish school system.</sub></p>
 
-Libraries I publish on npm and use in real products.
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/label-open-source-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/label-open-source-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/label-open-source-dark.svg"><img src="assets/label-open-source-light.svg" width="100%" alt="Open source"></picture>
 
-- [`@citron-systems/citron-ds`](https://www.npmjs.com/package/@citron-systems/citron-ds) <br>Design tokens kept in one place and compiled to CSS, SCSS, JS and JSON
-- [`@citron-systems/citron-ui`](https://www.npmjs.com/package/@citron-systems/citron-ui) <br>Accessible React components built on those tokens
-- [`@nexcomponent/lib`](https://www.npmjs.com/package/@nexcomponent/lib) <br>A React UI library, published as ESM and CJS with generated types
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/packages-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/packages-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/packages-dark.svg"><img src="assets/packages-light.svg" width="100%" alt="Open source on npm: @citron-systems/citron-ds (1,652 downloads this year), @citron-systems/citron-ui (3,837 downloads this year), @nexcomponent/lib (1,975 downloads this year)"></picture>
 
-<br>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/label-stack-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/label-stack-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/label-stack-dark.svg"><img src="assets/label-stack-light.svg" width="100%" alt="Stack"></picture>
 
-### Stack
-
-**Daily** &nbsp; React · TypeScript · Node.js · .NET · Flutter<br>
-**Also** &nbsp; Angular · Ionic · Electron · Capacitor · SQL Server · Postgres · AWS · Vercel · CI/CD
-
-<br>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/stack-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/stack-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Stack: React, TypeScript, Node.js, .NET, Flutter, Angular, Ionic, Electron, Capacitor, SQL Server, Postgres, AWS, Vercel, CI/CD"></picture>
 
 <details>
 <summary><b>Education and certificates</b></summary>
@@ -64,4 +49,6 @@ Microsoft Office Specialist, Word (2020) · <sub>verifiable at certiport.com</su
 
 </details>
 
-<sub>Bulgarian, native · English, C1 · German, A2</sub>
+<p><sub>Bulgarian, native · English, C1 · German, A2 · <a href="mailto:georgidrianovski@abv.bg">georgidrianovski@abv.bg</a></sub></p>
+
+<p align="center"><sub>Every card here is drawn by <code>scripts/build.py</code> and redrawn each night from live GitHub and npm data. Updated 26 Nov 2026.</sub></p>
