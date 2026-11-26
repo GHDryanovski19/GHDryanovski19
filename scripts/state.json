@@ -2524,7 +2524,7 @@
    "2026-11-23": 117,
    "2026-11-24": 43,
    "2026-11-25": 0,
-   "2026-11-26": 3
+   "2026-11-26": 13
   },
   "repos": 14,
   "stars": 2
@@ -2532,9 +2532,9 @@
  "npm": {
   "as_of": "2026-11-26",
   "downloads": {
-   "@citron-systems/citron-ds": 1652,
-   "@citron-systems/citron-ui": 3837,
-   "@nexcomponent/lib": 1975
+   "@citron-systems/citron-ds": 1653,
+   "@citron-systems/citron-ui": 3838,
+   "@nexcomponent/lib": 1976
   }
  }
 }
