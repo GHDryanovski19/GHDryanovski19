@@ -113,7 +113,7 @@ def stats(gh):
 
 # ---------------------------------------------------------------- drawing kit
 #
-# The look comes from Georgi's own photo: the sand of his shirt, the warm wood of the desk and the
+# The palette comes from Georgi's profile photo: the sand of his shirt, the warm wood of the desk and the
 # cyan of the glass wall behind him, on ink. Real marks for Hintora, Inkblot Studio and Citron.
 
 import re
@@ -122,7 +122,6 @@ def b64(path):
     return base64.b64encode(open(os.path.join(ROOT, "scripts", path), "rb").read()).decode()
 
 FONT = {"sans": b64("fonts/geist.woff2"), "mono": b64("fonts/geist-mono.woff2")}
-PHOTO = {"wide": b64("img/photo-wide.jpg"), "square": b64("img/photo-square.jpg")}
 SANS = "'Geist', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
 MONO = "'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace"
 
@@ -210,6 +209,7 @@ ICONS = {
     "globe": '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3.5 3.5 3.5 14.5 0 18M12 3c-3.5 3.5-3.5 14.5 0 18"/>',
     "camera": '<rect x="3" y="3" width="18" height="18" rx="5.5"/><circle cx="12" cy="12" r="4"/><path d="M17.3 6.7h.01"/>',
     "in": '<rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8 10.5V17M8 7.2v.01M12 17v-3.8a2.3 2.3 0 0 1 4.6 0V17M12 10.5V17"/>',
+    "bulb": '<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/>',
     "mail": '<rect x="3" y="5" width="18" height="14" rx="3"/><path d="m3.5 7 8.5 6 8.5-6"/>',
 }
 
@@ -244,50 +244,52 @@ def regular(t):
 
 # ---------------------------------------------------------------- cards
 
+def live_pill(x, y, t):
+    pw = est("building Hintora", 13, False, 0, 650) + 58
+    b = '<rect x="%g" y="%g" width="%g" height="32" rx="16" fill="#14120F"/>' % (x, y, pw)
+    b += mark("hintora", x + 5, y + 5, 22, t)
+    b += text(x + 34, y + 21, "building Hintora", 13, "#F3EEE5", 650)
+    b += '<circle cx="%g" cy="%g" r="4" fill="#3FD07A"/>' % (x + pw - 14, y + 16)
+    return b
+
 def hero(t, phone):
     alt = "%s. %s. %s %s" % (P["name"], P["faith"], P["dream"], P["role"])
-    if phone:
-        w, h = 440, 640
-        px, py, pw, ph = 20, 20, 400, 300
-    else:
-        w, h = 880, 360
-        px, py, pw, ph = 532, 24, 324, 312
-    b = '<clipPath id="ph"><rect x="%g" y="%g" width="%g" height="%g" rx="18"/></clipPath>' % (px, py, pw, ph)
-    b += '<rect x="%g" y="%g" width="%g" height="%g" rx="18" fill="%s"/>' % (px, py + 6, pw, ph, SWATCH["cyan"][1])
-    b += '<image href="data:image/jpeg;base64,%s" x="%g" y="%g" width="%g" height="%g" preserveAspectRatio="xMidYMid slice" clip-path="url(#ph)"/>' % (
-        PHOTO["square" if phone else "wide"], px, py, pw, ph)
-    # the live pill on the photo
-    lx, ly = px + 14, py + ph - 46
-    pw2 = est("building Hintora", 13, False, 0, 650) + 58
-    b += '<rect x="%g" y="%g" width="%g" height="32" rx="16" fill="#14120F" fill-opacity=".82"/>' % (lx, ly, pw2)
-    b += mark("hintora", lx + 5, ly + 5, 22, t)
-    b += text(lx + 34, ly + 21, "building Hintora", 13, "#F3EEE5", 650)
-    b += '<circle cx="%g" cy="%g" r="4" fill="#3FD07A"/>' % (lx + pw2 - 14, ly + 16)
     fg, muted = t["fg"], t["muted"]
+    line2 = "greatest inventor in the world."
     if phone:
-        x, y = 24, py + ph + 52
+        w, h = 440, 380
+        x, y = 24, 44
+        b = live_pill(x - 2, 26, t)
+        y = 100
         b += cross(x, y - 13, 14, SWATCH["amber"][0])
         b += text(x + 22, y, P["faith"].upper(), 12, muted, 600, True, 2)
         b += text(x - 2, y + 62, "Georgi", 56, fg, 800, ls=-2.4)
         b += text(x - 2, y + 118, "Dryanovski", 56, fg, 800, ls=-2.4)
         b += text(x, y + 160, "Going to be the", 22, fg, 650, ls=-0.5)
-        line2 = "greatest inventor in the world."
         mw = est(line2, 22, False, -0.5, 700) + 16
         b += '<rect x="%g" y="%g" width="%g" height="32" rx="6" fill="%s" transform="rotate(-1.2 %g %g)"/>' % (x - 8, y + 170, mw, SWATCH["sand"][0], x, y + 186)
         b += text(x, y + 193, line2, 22, "#14120F", 700, ls=-0.5)
-        b += text(x, y + 230, "SOFTWARE ENGINEER · BURGAS, BG", 11.5, muted, 600, True, 1.6)
-    else:
-        x = 38
-        b += cross(x, 46, 15, SWATCH["amber"][0])
-        b += text(x + 24, 59, P["faith"].upper(), 12.5, muted, 600, True, 2.2)
-        b += text(x - 3, 132, "Georgi", 70, fg, 800, ls=-3)
-        b += text(x - 3, 200, "Dryanovski", 70, fg, 800, ls=-3)
-        b += text(x, 248, "Going to be the", 25, fg, 650, ls=-0.6)
-        line2 = "greatest inventor in the world."
-        mw = est(line2, 25, False, -0.6, 700) + 18
-        b += '<rect x="%g" y="%g" width="%g" height="36" rx="7" fill="%s" transform="rotate(-1.2 %g %g)"/>' % (x - 9, 259, mw, SWATCH["sand"][0], x, 277)
-        b += text(x, 285, line2, 25, "#14120F", 700, ls=-0.6)
-        b += text(x, 322, "SOFTWARE ENGINEER · BURGAS, BULGARIA", 12, muted, 600, True, 1.8)
+        b += text(x, y + 236, "SOFTWARE ENGINEER · BURGAS, BG", 11.5, muted, 600, True, 1.6)
+        return svg(w, h, b, t, alt)
+    w, h = 880, 340
+    x = 38
+    b = cross(x, 46, 15, SWATCH["amber"][0])
+    b += text(x + 24, 59, P["faith"].upper(), 12.5, muted, 600, True, 2.2)
+    b += text(x - 3, 132, "Georgi", 70, fg, 800, ls=-3)
+    b += text(x - 3, 200, "Dryanovski", 70, fg, 800, ls=-3)
+    b += text(x, 248, "Going to be the", 25, fg, 650, ls=-0.6)
+    mw = est(line2, 25, False, -0.6, 700) + 18
+    b += '<rect x="%g" y="%g" width="%g" height="36" rx="7" fill="%s" transform="rotate(-1.2 %g %g)"/>' % (x - 9, 259, mw, SWATCH["sand"][0], x, 277)
+    b += text(x, 285, line2, 25, "#14120F", 700, ls=-0.6)
+    b += text(x, 316, "SOFTWARE ENGINEER · BURGAS, BULGARIA", 12, muted, 600, True, 1.8)
+    # right side: two keys from the workbench, the G and the bulb
+    gx, gy, gs = 620, 54, 150
+    b += '<g transform="rotate(-6 %g %g)">%s%s</g>' % (gx + gs / 2, gy + gs / 2, tile(gx, gy, gs, gs, SWATCH["cyan"], rx=34, depth=9),
+                                                     text(gx + gs / 2, gy + gs / 2 + 38, "G", 112, "#FFFFFF", 800, anchor="middle"))
+    bx, by, bs = 752, 160, 88
+    b += '<g transform="rotate(8 %g %g)">%s%s</g>' % (bx + bs / 2, by + bs / 2, tile(bx, by, bs, bs, SWATCH["amber"], rx=22, depth=7),
+                                                    icon("bulb", bx + 20, by + 20, 48, "#FFFFFF", 2))
+    b += live_pill(624, 270, t)
     return svg(w, h, b, t, alt)
 
 def stat_tiles(t, st, gh, npm_total, phone):
