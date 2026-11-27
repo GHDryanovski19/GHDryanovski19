@@ -7,13 +7,13 @@
 <a href="https://www.instagram.com/gdryanovski/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-3-dark.svg"><img src="assets/link-3-light.svg" height="44" alt="Instagram"></picture></a>
 </p>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/stats-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/stats-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="On GitHub: 11,046 contributions in the last year, 753 on the best day, longest streak 46 days, 12,622 since 2020, 157 active days, 7,467 npm downloads this year"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/stats-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/stats-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="On GitHub: 11,198 contributions in the last year, 753 on the best day, longest streak 46 days, 12,774 since 2020, 158 active days, 7,470 npm downloads this year"></picture>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/year-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/year-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/year-dark.svg"><img src="assets/year-light.svg" width="100%" alt="11,046 contributions in the last year (phone: 10,762 in the last 6 months)"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/year-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/year-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/year-dark.svg"><img src="assets/year-light.svg" width="100%" alt="11,198 contributions in the last year (phone: 10,914 in the last 6 months)"></picture>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/month-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/month-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/month-dark.svg"><img src="assets/month-light.svg" width="100%" alt="6,265 contributions in the last 30 days"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/month-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/month-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/month-dark.svg"><img src="assets/month-light.svg" width="100%" alt="5,936 contributions in the last 30 days"></picture>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/years-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/years-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/years-dark.svg"><img src="assets/years-light.svg" width="100%" alt="Contributions per year: 2020: 46, 2021: 302, 2022: 356, 2023: 134, 2024: 288, 2025: 538, 2026: 10,958"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/years-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/years-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/years-dark.svg"><img src="assets/years-light.svg" width="100%" alt="Contributions per year: 2020: 46, 2021: 302, 2022: 356, 2023: 134, 2024: 288, 2025: 538, 2026: 11,110"></picture>
 
 <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/whoami-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/whoami-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/whoami-dark.svg"><img src="assets/whoami-light.svg" width="100%" alt="whoami: georgi, software engineer, Burgas. Disciple of Jesus Christ. Dream: going to be the greatest inventor in the world. Rule: He leads. I only row."></picture>
 
@@ -29,7 +29,7 @@
 
 <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/label-os-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/label-os-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/label-os-dark.svg"><img src="assets/label-os-light.svg" width="100%" alt="Open source"></picture>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/packages-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/packages-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/packages-dark.svg"><img src="assets/packages-light.svg" width="100%" alt="Open source on npm: @citron-systems/citron-ds (1,653 downloads this year), @citron-systems/citron-ui (3,838 downloads this year), @nexcomponent/lib (1,976 downloads this year)"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/packages-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/packages-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/packages-dark.svg"><img src="assets/packages-light.svg" width="100%" alt="Open source on npm: @citron-systems/citron-ds (1,655 downloads this year), @citron-systems/citron-ui (3,840 downloads this year), @nexcomponent/lib (1,975 downloads this year)"></picture>
 
 <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/label-stack-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/label-stack-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/label-stack-dark.svg"><img src="assets/label-stack-light.svg" width="100%" alt="Stack"></picture>
 
@@ -51,4 +51,4 @@ Microsoft Office Specialist, Word (2020) · <sub>verifiable at certiport.com</su
 
 <p align="center"><sub>Bulgarian, native · English, C1 · German, A2 · <a href="mailto:georgidrianovski@abv.bg">georgidrianovski@abv.bg</a></sub></p>
 
-<p align="center"><sub>Every card is drawn by <code>scripts/build.py</code> and redrawn each night from live GitHub and npm data · Burgas, 26 Nov 2026</sub></p>
+<p align="center"><sub>Every card is drawn by <code>scripts/build.py</code> and redrawn each night from live GitHub and npm data · Burgas, 27 Nov 2026</sub></p>
